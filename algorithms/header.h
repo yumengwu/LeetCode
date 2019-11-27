@@ -2,6 +2,8 @@
 #define __LEETCODE__H
 
 #include <iostream>
+#include <cstdio>
+#include <cstdlib>
 #include <string>
 #include <vector>
 #include <list>
