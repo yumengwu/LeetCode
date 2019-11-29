@@ -9,10 +9,10 @@ public:
         }
         for (int i = 1; i <= num; ++i) {
             if (i % 2 == 0) {
-                v[i] = v[i / 2];
+                v[i] = v[i >> 1];
             }
             else {
-                v[i] = 1 + v[(i - 1) / 2];
+                v[i] = 1 + v[(i - 1) >> 1];
             }
         }
         return v;

@@ -5,6 +5,7 @@
         "queue": "cpp",
         "iosfwd": "cpp",
         "ostream": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "iterator": "cpp"
     }
 }
