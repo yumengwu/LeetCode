@@ -1,6 +1,7 @@
 #ifndef __LEETCODE__H
 #define __LEETCODE__H
 
+#include <unistd.h>
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
@@ -14,6 +15,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <algorithm>
+#include <climits>
 
 using namespace std;
 
