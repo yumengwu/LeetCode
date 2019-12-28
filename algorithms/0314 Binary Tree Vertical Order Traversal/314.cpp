@@ -9,55 +9,49 @@ struct TreeNode {
 
 class Solution {
 public:
-    struct point {
-        TreeNode * node;
-        int index;
+    struct node {
+        TreeNode * n;
+        int idx;
+        node(TreeNode * tn, int i) {
+            n = tn;
+            idx = i;
+        }
     };
+    
     vector<vector<int>> verticalOrder(TreeNode* root) {
         vector<vector<int>> res;
         if (root == NULL) {
             return res;
         }
-        int left = calLeftWidth(root->left);
-        int right = calRightWidth(root->right);
-        cout<<left<<' '<<right<<endl;
-        // int n = left + right + 1;
-        // res.resize(n);
-        // queue<point> q;
-        // point p;
-        // p.node = root;
-        // p.index = left;
-        // q.push(p);
-        // while (q.size()) {
-        //     point pp = q.front();
-        //     q.pop();
-        //     res[pp.index].push_back(pp.node->val);
-        //     if (pp.node->left) {
-        //         point ppp;
-        //         ppp.node = pp.node->left;
-        //         ppp.index = pp.index - 1;
-        //         q.push(ppp);
-        //     }
-        //     if (pp.node->right) {
-        //         point ppp;
-        //         ppp.node = pp.node->right;
-        //         ppp.index = pp.index + 1;
-        //         q.push(ppp);
-        //     }
-        // }
+        queue<node> q;
+        int minidx = 0;
+        int maxidx = 0;
+        map<int, vector<int>> m;
+        node n(root, 0);
+        q.push(n);
+        while (q.size()) {
+            node nn = q.front();
+            q.pop();
+            if (nn.idx < minidx) {
+                minidx = nn.idx;
+            }
+            else if (nn.idx > maxidx) {
+                maxidx = nn.idx;
+            }
+            m[nn.idx].push_back(nn.n->val);
+            if (nn.n->left) {
+                node nnn(nn.n->left, nn.idx - 1);
+                q.push(nnn);
+            }
+            if (nn.n->right) {
+                node nnn(nn.n->right, nn.idx + 1);
+                q.push(nnn);
+            }
+        }
+        for (map<int, vector<int>>::iterator it = m.begin(); it != m.end(); ++it) {
+            res.push_back(it->second);
+        }
         return res;
-    }
-    int calLeftWidth(TreeNode * root) {
-        if (root == NULL) {
-            return 0;
-        }
-        return max(calLeftWidth(root->left) + 1, max(0, calLeftWidth(root->right) - 1));
-    }
-    int calRightWidth(TreeNode * root) {
-        if (root == NULL) {
-            return 0;
-        }
-        return max(calRightWidth(root->right) + 1, max(0, calRightWidth(root->left) - 1));
     }
 };
 
