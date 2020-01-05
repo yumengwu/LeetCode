@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <climits>
 #include <cmath>
+#include <regex>
 
 using namespace std;
 
