@@ -65,12 +65,15 @@ LeetCode solution
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](/algorithms/0094-Binary-Tree-Inorder-Traversal/94.cpp) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [C++](/algorithms/0095-Unique-Binary-Search-Trees-II/95.cpp) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [C++](/algorithms/0096-Unique-Binary-Search-Trees/96.cpp) |
+| 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [C++](/algorithms/0099-Recover-Binary-Search-Tree/99.cpp) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](/algorithms/0102-Binary-Tree-Level-Order-Traversal/102.cpp) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](/algorithms/0103-Binary-Tree-Zigzag-Level-Order-Traversal/103.cpp) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](/algorithms/0104-Maximum-Depth-of-Binary-Tree/104.cpp) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](/algorithms/0105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/105.cpp) |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [C++](/algorithms/0107-Binary-Tree-Level-Order-Traversal-II/107.cpp) |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [C++](/algorithms/0108-Convert-Sorted-Array-to-Binary-Search-Tree/108.cpp) |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [C++](/algorithms/0109-Convert-Sorted-List-to-Binary-Search-Tree/109.cpp) |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [C++](/algorithms/0110-Balanced-Binary-Tree/110.cpp) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](/algorithms/0116-Populating-Next-Right-Pointers-in-Each-Node/116.cpp) |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [C++](/algorithms/0117-Populating-Next-Right-Pointers-in-Each-Node-II/117.cpp) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle/) | [C++](/algorithms/0118-Pascal's-Triangle/118.cpp) |
@@ -134,6 +137,7 @@ LeetCode solution
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](/algorithms/0226-Invert-Binary-Tree/226.cpp) |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](/algorithms/0227-Basic-Calculator-II/227.cpp) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [C++](/algorithms/0228-Summary-Ranges/228.cpp) |
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [C++](/algorithms/0230-Kth-Smallest-Element-in-a-BST/230.cpp) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](/algorithms/0231-Power-of-Two/231.cpp) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](/algorithms/0232-Implement-Queue-using-Stacks/232.cpp) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](/algorithms/0234-Palindrome-Linked-List/234.cpp) |
@@ -152,38 +156,55 @@ LeetCode solution
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/) | [C++](/algorithms/0256-Paint-House/256.cpp) |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](/algorithms/0257-Binary-Tree-Paths/257.cpp) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](/algorithms/0258-Add-Digits/258.cpp) |
+| 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [C++](/algorithms/0261-Graph-Valid-Tree/261.cpp) |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [C++](/algorithms/0264-Ugly-Number-II/264.cpp) |
 | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) | [C++](/algorithms/0265-Paint-House-II/265.cpp) |
+| 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | [C++](/algorithms/0270-Closest-Binary-Search-Tree-Value/270.cpp) |
+| 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [C++](/algorithms/0271-Encode-and-Decode-Strings/271.cpp) |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](/algorithms/0278-First-Bad-Version/278.cpp) |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [C++](/algorithms/0279-Perfect-Squares/279.cpp) |
+| 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [C++](/algorithms/0280-Wiggle-Sort/280.cpp) |
+| 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [C++](/algorithms/0286-Walls-and-Gates/286.cpp) |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](/algorithms/0287-Find-the-Duplicate-Number/287.cpp) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [C++](/algorithms/0295-Find-Median-from-Data-Stream/295.cpp) |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [C++](/algorithms/0297-Serialize-and-Deserialize-Binary-Tree/297.cpp) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](/algorithms/0300-Longest-Increasing-Subsequence/300.cpp) |
 | 303 | [Range Sum Query   Immutable](https://leetcode.com/problems/range-sum-query---immutable/) | [C++](/algorithms/0303-Range-Sum-Query---Immutable/303.cpp) |
 | 304 | [Range Sum Query 2D   Immutable](https://leetcode.com/problems/range-sum-query-2d---immutable/) | [C++](/algorithms/0304-Range-Sum-Query-2D---Immutable/304.cpp) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](/algorithms/0309-Best-Time-to-Buy-and-Sell-Stock-with-Cooldown/309.cpp) |
+| 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [C++](/algorithms/0310-Minimum-Height-Trees/310.cpp) |
 | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [C++](/algorithms/0314-Binary-Tree-Vertical-Order-Traversal/314.cpp) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](/algorithms/0322-Coin-Change/322.cpp) |
+| 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [C++](/algorithms/0323-Number-of-Connected-Components-in-an-Undirected-Graph/323.cpp) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](/algorithms/0328-Odd-Even-Linked-List/328.cpp) |
+| 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [C++](/algorithms/0329-Longest-Increasing-Path-in-a-Matrix/329.cpp) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](/algorithms/0338-Counting-Bits/338.cpp) |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | [C++](/algorithms/0343-Integer-Break/343.cpp) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](/algorithms/0347-Top-K-Frequent-Elements/347.cpp) |
 | 348 | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [C++](/algorithms/0348-Design-Tic-Tac-Toe/348.cpp) |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [C++](/algorithms/0349-Intersection-of-Two-Arrays/349.cpp) |
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](/algorithms/0350-Intersection-of-Two-Arrays-II/350.cpp) |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [C++](/algorithms/0357-Count-Numbers-with-Unique-Digits/357.cpp) |
 | 361 | [Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [C++](/algorithms/0361-Bomb-Enemy/361.cpp) |
 | 368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](/algorithms/0368-Largest-Divisible-Subset/368.cpp) |
 | 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [C++](/algorithms/0369-Plus-One-Linked-List/369.cpp) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [C++](/algorithms/0377-Combination-Sum-IV/377.cpp) |
+| 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [C++](/algorithms/0379-Design-Phone-Directory/379.cpp) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [C++](/algorithms/0415-Add-Strings/415.cpp) |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](/algorithms/0430-Flatten-a-Multilevel-Doubly-Linked-List/430.cpp) |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](/algorithms/0434-Number-of-Segments-in-a-String/434.cpp) |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [C++](/algorithms/0445-Add-Two-Numbers-II/445.cpp) |
 | 472 | [Concatenated Words](https://leetcode.com/problems/concatenated-words/) | [C++](/algorithms/0472-Concatenated-Words/472.cpp) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](/algorithms/0496-Next-Greater-Element-I/496.cpp) |
+| 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | [C++](/algorithms/0529-Minesweeper/529.cpp) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](/algorithms/0567-Permutation-in-String/567.cpp) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [C++](/algorithms/0572-Subtree-of-Another-Tree/572.cpp) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [C++](/algorithms/0678-Valid-Parenthesis-String/678.cpp) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [C++](/algorithms/0692-Top-K-Frequent-Words/692.cpp) |
+| 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [C++](/algorithms/0707-Design-Linked-List/707.cpp) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [C++](/algorithms/0725-Split-Linked-List-in-Parts/725.cpp) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) | [C++](/algorithms/0772-Basic-Calculator-III/772.cpp) |
+| 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | [C++](/algorithms/0817-Linked-List-Components/817.cpp) |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | [C++](/algorithms/0819-Most-Common-Word/819.cpp) |
 | 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) | [C++](/algorithms/0843-Guess-the-Word/843.cpp) |
 | 845 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [C++](/algorithms/0845-Longest-Mountain-in-Array/845.cpp) |
