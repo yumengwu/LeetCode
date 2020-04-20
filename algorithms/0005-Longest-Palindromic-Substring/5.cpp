@@ -59,6 +59,54 @@ public:
     }
 };
 
+// class Solution {
+// public:
+//     string longestPalindrome(string s) {
+//         int n = s.length();
+//         if (n <= 1) {
+//             return s;
+//         }
+//         int idx = 0;
+//         int len = 0;
+//         bool isOdd = true;
+//         for (int i = 0; i < n; ++i) {
+//             int templen;
+//             bool tempIsOdd;
+//             helper(s, i, templen, tempIsOdd);
+//             if (templen > len) {
+//                 idx = i;
+//                 len = templen;
+//                 isOdd = tempIsOdd;
+//             }
+//         }
+//         return isOdd ? s.substr(idx - ((len - 1) >> 1), len) : s.substr(idx - ((len - 2) >> 1), len);
+//     }
+    
+//     void helper(string& s, int idx, int& len, bool& isOdd) {
+//         int lo = 1;
+//         int i = idx - 1;
+//         int n = s.length();
+//         while (i >= 0 && (idx << 1) - i < n && s[i] == s[(idx << 1) - i]) {
+//             lo += 2;
+//             --i;
+//         }
+//         int le = 0;
+//         i = idx;
+//         while (i >= 0 && (idx << 1) + 1 - i < n && s[i] == s[(idx << 1) + 1 - i]) {
+//             le += 2;
+//             --i;
+//         }
+//         if (lo > le) {
+//             len = lo;
+//             isOdd = true;
+//         }
+//         else {
+//             len = le;
+//             isOdd = false;
+//         }
+//     }
+// };
+
 int main()
 {
     Solution s;

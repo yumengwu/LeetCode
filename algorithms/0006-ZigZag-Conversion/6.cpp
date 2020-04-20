@@ -41,3 +41,42 @@ public:
         return res;
     }
 };
+
+// class Solution {
+// public:
+//     string convert(string s, int numRows) {
+//         int n = s.length();
+//         if (numRows == 1 || n < 2) {
+//             return s;
+//         }
+//         vector<string> v(numRows, "");
+//         char c = 'd';
+//         int idx = 0;
+//         for (int i = 0; i < n; ++i) {
+//             v[idx] += s[i];
+//             if (c == 'd') {
+//                 if (idx == numRows - 1) {
+//                     --idx;
+//                     c = 'u';
+//                 }
+//                 else {
+//                     ++idx;
+//                 }
+//             }
+//             else {
+//                 if (idx == 0) {
+//                     ++idx;
+//                     c = 'd';
+//                 }
+//                 else {
+//                     --idx;
+//                 }
+//             }
+//         }
+//         string res = "";
+//         for (int i = 0; i < numRows; ++i) {
+//             res += v[i];
+//         }
+//         return res;
+//     }
+// };

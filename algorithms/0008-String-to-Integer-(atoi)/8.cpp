@@ -34,3 +34,35 @@ public:
         return res * sign;
     }
 };
+
+// class Solution {
+// public:
+//     int myAtoi(string str) {
+//         long res = 0;
+//         int idx = 0, n = str.length();
+//         if (n == 0) {
+//             return 0;
+//         }
+//         while (idx < n && str[idx] == ' ') ++idx;
+//         bool isPosi = true;
+//         if (str[idx] == '-') {
+//             ++idx;
+//             isPosi = false;
+//         }
+//         else if (str[idx] == '+') {
+//             ++idx;
+//         }
+//         while (idx < n && str[idx] >= '0' && str[idx] <= '9') {
+//             res *= 10;
+//             res += str[idx] - '0';
+//             ++idx;
+//             if (isPosi && res >= INT_MAX) {
+//                 return INT_MAX;
+//             }
+//             if (!isPosi && -res <= INT_MIN) {
+//                 return INT_MIN;
+//             }
+//         }
+//         return isPosi ? res : -res;
+//     }
+// };
