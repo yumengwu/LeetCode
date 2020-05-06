@@ -17,7 +17,6 @@ public:
         ListNode * cur = h;
         ListNode * last = h;
         while (cur && cur->next) {
-            // cout<<cur->val<<endl;
             ListNode * ch = cur;
             cur = cur->next;
             bool hasK = true;
@@ -33,7 +32,6 @@ public:
                 break;
             }
             for (int i = 0; i < k - 1; ++i) {
-                // cout<<cur->val<<' ';
                 if (cur->next == NULL) {
                     break;
                 }

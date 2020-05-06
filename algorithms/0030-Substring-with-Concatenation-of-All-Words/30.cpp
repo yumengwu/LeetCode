@@ -41,6 +41,52 @@ public:
     }
 };
 
+/**
+
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return 0;
+} ();
+
+class Solution {
+public:
+    vector<int> findSubstring(string s, vector<string>& words) {
+        int n = words.size();
+        if (n == 0) {
+            return {};
+        }
+        int ws = words[0].length();
+        if (s.length() < n * ws) {
+            return {};
+        }
+        map<string, int> m;
+        for (string str : words) {
+            ++m[str];
+        }
+        vector<int> res;
+        for (int i = 0; i <= s.length() - ws * n; ++i) {
+            if (m.find(s.substr(i, ws)) != m.end()) {
+                map<string, int> mm = m;
+                bool has = true;
+                for (int j = 0; j < n; ++j) {
+                    string cur = s.substr(i + j * ws, ws);
+                    if (mm.find(cur) == mm.end() || --mm[cur] < 0) {
+                        has = false;
+                        break;
+                    }
+                }
+                if (has) {
+                    res.push_back(i);
+                }
+            }
+        }
+        return res;
+    }
+};
+
+*/Volumes
+
 int main()
 {
     vector<string> v{"word","good","best","good"};

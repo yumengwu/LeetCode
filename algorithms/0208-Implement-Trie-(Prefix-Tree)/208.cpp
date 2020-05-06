@@ -62,3 +62,70 @@ private:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
+
+/*
+
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return 0;
+} ();
+
+class Trie {
+public:
+    Trie() {
+        head = new node();
+    }
+    
+    void insert(string word) {
+        node* cur = head;
+        int n = word.length();
+        for (int i = 0; i < n; ++i) {
+            if (!cur->next[word[i] - 'a']) {
+                cur->next[word[i] - 'a'] = new node();
+            }
+            cur = cur->next[word[i] - 'a'];
+        }
+        cur->isEnd = true;
+    }
+    
+    bool search(string word) {
+        node* cur = head;
+        int n = word.length();
+        for (int i = 0; i < n; ++i) {
+            if (!cur->next[word[i] - 'a']) {
+                return false;
+            }
+            cur = cur->next[word[i] - 'a'];
+        }
+        return cur->isEnd;
+    }
+    
+    bool startsWith(string prefix) {
+        node* cur = head;
+        int n = prefix.length();
+        for (int i = 0; i < n; ++i) {
+            if (!cur->next[prefix[i] - 'a']) {
+                return false;
+            }
+            cur = cur->next[prefix[i] - 'a'];
+        }
+        return true;
+    }
+
+private:
+    struct node {
+        node* next[26];
+        bool isEnd;
+        
+        node() {
+            memset(next, 0, sizeof(node*) * 26);
+            isEnd = false;
+        }
+    };
+    
+    node* head;
+};
+
+*/
+
