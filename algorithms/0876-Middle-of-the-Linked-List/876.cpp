@@ -5,7 +5,7 @@ struct ListNode {
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
 };
-
+/*
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -19,4 +19,23 @@ public:
         }
         return slow;
     }
+};*/
+
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        if (!head || !head->next) {
+            return head;
+        }
+        ListNode* slow = head, * fast = head;
+        while (fast->next) {
+            slow = slow->next;
+            fast = fast->next;
+            if (fast->next) {
+                fast = fast->next;
+            }
+        }
+        return slow;
+    }
 };
+

@@ -99,6 +99,101 @@ private:
  * obj->deleteAtIndex(index);
  */
 
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return 0;
+} ();
+
+/*
+class MyLinkedList {
+public:
+    MyLinkedList() {
+        head = new Node();
+        head->next = head;
+        head->prev = head;
+        size = 0;
+    }
+
+    int get(int index) {
+        if (index >= size || index < 0) {
+            return -1;
+        }
+        Node* cur = head->next;
+        for (int i = 0; i < index; ++i) {
+            cur = cur->next;
+        }
+        return cur->val;
+    }
+
+    void addAtHead(int val) {
+        Node* nn = new Node(val);
+        nn->prev = head;
+        nn->next = head->next;
+        head->next->prev = nn;
+        head->next = nn;
+        ++size;
+    }
+
+    void addAtTail(int val) {
+        Node* nn = new Node(val);
+        nn->next = head;
+        nn->prev = head->prev;
+        head->prev->next = nn;
+        head->prev = nn;
+        ++size;
+    }
+
+    void addAtIndex(int index, int val) {
+        if (index > size || index < 0) {
+            return;
+        }
+        Node* cur = head;
+        for (int i = 0; i < index; ++i) {
+            cur = cur->next;
+        }
+        Node* nn = new Node(val);
+        nn->next = cur->next;
+        nn->prev = cur;
+        cur->next->prev = nn;
+        cur->next = nn;
+        ++size;
+    }
+
+    void deleteAtIndex(int index) {
+        if (index >= size || index < 0) {
+            return;
+        }
+        Node* cur = head;
+        for (int i = 0; i < index; ++i) {
+            cur = cur->next;
+        }
+        cur->next = cur->next->next;
+        cur->next->prev = cur;
+        --size;
+    }
+
+private:
+    struct Node {
+        int val;
+        Node* next;
+        Node* prev;
+
+        Node() {
+            val = 0;
+            next = prev = NULL;
+        }
+
+        Node(int v) {
+            val = v;
+            next = prev = NULL;
+        }
+    };
+
+    Node* head;
+    int size;
+};*/
+
 int main()
 {
     return 0;

@@ -67,6 +67,56 @@ public:
     }
 };
 
+/*
+class Solution {
+public:
+    int orangesRotting(vector<vector<int>>& grid) {
+        int m = grid.size();
+        if (m == 0) {
+            return -1;
+        }
+        int n = grid[0].size();
+        set<pair<int, int>> st;
+        int remain = 0, idx = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] == 2) {
+                    st.insert(make_pair(i, j));
+                }
+                else if (grid[i][j] == 1) {
+                    ++remain;
+                }
+            }
+        }
+        while (remain && st.size()) {
+            set<pair<int, int>> temp;
+            for (auto it = st.begin(); it != st.end(); ++it) {
+                int i = it->first, j = it->second;
+                if (i > 0 && grid[i - 1][j] == 1) {
+                    grid[i - 1][j] = 2;
+                    temp.insert(make_pair(i - 1, j));
+                }
+                if (i < m - 1 && grid[i + 1][j] == 1) {
+                    grid[i + 1][j] = 2;
+                    temp.insert(make_pair(i + 1, j));
+                }
+                if (j > 0 && grid[i][j - 1] == 1) {
+                    grid[i][j - 1] = 2;
+                    temp.insert(make_pair(i, j - 1));
+                }
+                if (j < n - 1 && grid[i][j + 1] == 1) {
+                    grid[i][j + 1] = 2;
+                    temp.insert(make_pair(i, j + 1));
+                }
+            }
+            st = temp;
+            remain -= st.size();
+            ++idx;
+        }
+        return remain == 0 ? idx : -1;
+    }
+};*/
+
 int main()
 {
     Solution s;
