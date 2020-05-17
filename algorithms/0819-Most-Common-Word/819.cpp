@@ -1,5 +1,5 @@
 #include "../header.h"
-
+/*
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
@@ -45,6 +45,54 @@ public:
             res.push_back(temp);
         }
         return res;
+    }
+};*/
+
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    return 0;
+} ();
+
+class Solution {
+public:
+    string mostCommonWord(string paragraph, vector<string>& banned) {
+        unordered_set<string> st;
+        unordered_map<string, int> m;
+        for (string str : banned) {
+            st.insert(tolower(str));
+        }
+        int idx = 0, n = paragraph.length();
+        while (idx < n) {
+            while (idx < n && !(paragraph[idx] >= 'a' && paragraph[idx] <= 'z' || paragraph[idx] >= 'A' && paragraph[idx] <= 'Z')) ++idx;
+            if (idx == n) continue;
+            int j = 1;
+            while (idx + j < n && (paragraph[idx + j] >= 'a' && paragraph[idx + j] <= 'z' || paragraph[idx + j] >= 'A' && paragraph[idx + j] <= 'Z')) ++j;
+            string cur = tolower(paragraph.substr(idx, j));
+            if (!st.count(cur)) {
+                ++m[cur];
+            }
+            idx += j;
+        }
+        string ms;
+        int mn = 0;
+        for (auto it = m.begin(); it != m.end(); ++it) {
+            if (it->second > mn) {
+                mn = it->second;
+                ms = it->first;
+            }
+        }
+        return ms;
+    }
+
+    string tolower(string str) {
+        string s = str;
+        for (int i = 0; i < s.length(); ++i) {
+            if (s[i] >= 'A' && s[i] <= 'Z') {
+                s[i] = s[i] - 'A' + 'a';
+            }
+        }
+        return s;
     }
 };
 

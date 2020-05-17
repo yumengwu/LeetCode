@@ -1,5 +1,5 @@
 #include "../header.h"
-
+/*
 class Solution {
 public:
     vector<string> reorderLogFiles(vector<string>& logs) {
@@ -42,4 +42,49 @@ private:
         ++idx;
         return str[idx] >= '0' && str[idx] <= '9' ? 0 : idx;
     }
+};*/
+
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    return 0;
+} ();
+
+class Solution {
+public:
+    vector<string> reorderLogFiles(vector<string>& logs) {
+        vector<string> res, digitLog;
+        vector<pair<string, string>> letterLog;
+        for (string s : logs) {
+            int check = helper(s);
+            if (check == -1) {
+                digitLog.push_back(s);
+            }
+            else {
+                letterLog.push_back(make_pair(s, s.substr(check)));
+            }
+        }
+        sort(letterLog.begin(), letterLog.end(), [] (const pair<string, string>& a, const pair<string, string>& b) -> bool {
+            return a.second == b.second ? a.first < b.first : a.second < b.second;
+        });
+        for (auto it : letterLog) {
+            res.push_back(it.first);
+        }
+        for (string s : digitLog) {
+            res.push_back(s);
+        }
+        return res;
+    }
+    
+    int helper(string s) {
+        int ws = 0;
+        for (int i = ws; i < s.length(); ++i) {
+            if (s[i] == ' ') {
+                ws = i;
+                break;
+            }
+        }
+        return s[ws + 1] >= '0' && s[ws + 1] <= '9' ? -1 : ws;
+    }
 };
+

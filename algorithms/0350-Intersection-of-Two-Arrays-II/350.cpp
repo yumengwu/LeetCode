@@ -20,6 +20,30 @@ public:
     }
 };
 
+/*
+class Solution {
+public:
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+        unordered_map<int, int> m1, m2;
+        for (int n : nums1) {
+            ++m1[n];
+        }
+        for (int n : nums2) {
+            ++m2[n];
+        }
+        vector<int> res;
+        for (auto it = m2.begin(); it != m2.end(); ++it) {
+            if (m1.find(it->first) != m1.end()) {
+                int cnt = min(m1[it->first], it->second);
+                for (int i = 0; i < cnt; ++i) {
+                    res.push_back(it->first);
+                }
+            }
+        }
+        return res;
+    }
+};*/
+
 int main()
 {
     return 0;

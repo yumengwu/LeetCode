@@ -28,6 +28,28 @@ public:
     }
 };
 
+/*
+class Solution {
+public:
+    string addStrings(string num1, string num2) {
+        string res;
+        reverse(num1.begin(), num1.end());
+        reverse(num2.begin(), num2.end());
+        int i1 = 0, i2 = 0, c = 0;
+        while (i1 < num1.length() || i2 < num2.length() || c) {
+            int n1 = i1 < num1.length() ? num1[i1] - '0' : 0;
+            int n2 = i2 < num2.length() ? num2[i2] - '0' : 0;
+            int t = n1 + n2 + c;
+            res += t % 10 + '0';
+            c = t / 10;
+            ++i1;
+            ++i2;
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};*/
+
 int main()
 {
     Solution s;
