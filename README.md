@@ -32,15 +32,22 @@ LeetCode solution
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C++](/algorithms/0028-Implement-strStr()/28.cpp) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [C++](/algorithms/0029-Divide-Two-Integers/29.cpp) |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [C++](/algorithms/0030-Substring-with-Concatenation-of-All-Words/30.cpp) |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](/algorithms/0031-Next-Permutation/31.cpp) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](/algorithms/0032-Longest-Valid-Parentheses/32.cpp) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](/algorithms/0033-Search-in-Rotated-Sorted-Array/33.cpp) |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](/algorithms/0034-Find-First-and-Last-Position-of-Element-in-Sorted-Array/34.cpp) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](/algorithms/0035-Search-Insert-Position/35.cpp) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](/algorithms/0036-Valid-Sudoku/36.cpp) |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [C++](/algorithms/0037-Sudoku-Solver/37.cpp) |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C++](/algorithms/0039-Combination-Sum/39.cpp) |
+| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [C++](/algorithms/0040-Combination-Sum-II/40.cpp) |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [C++](/algorithms/0041-First-Missing-Positive/41.cpp) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](/algorithms/0042-Trapping-Rain-Water/42.cpp) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](/algorithms/0043-Multiply-Strings/43.cpp) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [C++](/algorithms/0044-Wildcard-Matching/44.cpp) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [C++](/algorithms/0045-Jump-Game-II/45.cpp) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](/algorithms/0046-Permutations/46.cpp) |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [C++](/algorithms/0047-Permutations-II/47.cpp) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [C++](/algorithms/0048-Rotate-Image/48.cpp) |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](/algorithms/0049-Group-Anagrams/49.cpp) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [C++](/algorithms/0050-Pow(x,-n)/50.cpp) |
@@ -211,13 +218,17 @@ LeetCode solution
 | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [C++](/algorithms/0336-Palindrome-Pairs/336.cpp) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](/algorithms/0338-Counting-Bits/338.cpp) |
 | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [C++](/algorithms/0339-Nested-List-Weight-Sum/339.cpp) |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](/algorithms/0342-Power-of-Four/342.cpp) |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | [C++](/algorithms/0343-Integer-Break/343.cpp) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](/algorithms/0344-Reverse-String/344.cpp) |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](/algorithms/0345-Reverse-Vowels-of-a-String/345.cpp) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](/algorithms/0347-Top-K-Frequent-Elements/347.cpp) |
 | 348 | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [C++](/algorithms/0348-Design-Tic-Tac-Toe/348.cpp) |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [C++](/algorithms/0349-Intersection-of-Two-Arrays/349.cpp) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](/algorithms/0350-Intersection-of-Two-Arrays-II/350.cpp) |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [C++](/algorithms/0357-Count-Numbers-with-Unique-Digits/357.cpp) |
 | 361 | [Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [C++](/algorithms/0361-Bomb-Enemy/361.cpp) |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [C++](/algorithms/0367-Valid-Perfect-Square/367.cpp) |
 | 368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](/algorithms/0368-Largest-Divisible-Subset/368.cpp) |
 | 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [C++](/algorithms/0369-Plus-One-Linked-List/369.cpp) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [C++](/algorithms/0377-Combination-Sum-IV/377.cpp) |
@@ -225,6 +236,11 @@ LeetCode solution
 | 380 | [Insert Delete GetRandom O1](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C++](/algorithms/0380-Insert-Delete-GetRandom-O1/380.cpp) |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](/algorithms/0384-Shuffle-an-Array/384.cpp) |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [C++](/algorithms/0387-First-Unique-Character-in-a-String/387.cpp) |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [C++](/algorithms/0392-Is-Subsequence/392.cpp) |
+| 393 | [UTF 8 Validation](https://leetcode.com/problems/utf-8-validation/) | [C++](/algorithms/0393-UTF-8-Validation/393.cpp) |
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [C++](/algorithms/0394-Decode-String/394.cpp) |
+| 398 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/) | [C++](/algorithms/0398-Random-Pick-Index/398.cpp) |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [C++](/algorithms/0404-Sum-of-Left-Leaves/404.cpp) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [C++](/algorithms/0415-Add-Strings/415.cpp) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](/algorithms/0416-Partition-Equal-Subset-Sum/416.cpp) |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](/algorithms/0430-Flatten-a-Multilevel-Doubly-Linked-List/430.cpp) |
@@ -236,15 +252,22 @@ LeetCode solution
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C++](/algorithms/0476-Number-Complement/476.cpp) |
 | 490 | [The Maze](https://leetcode.com/problems/the-maze/) | [C++](/algorithms/0490-The-Maze/490.cpp) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](/algorithms/0496-Next-Greater-Element-I/496.cpp) |
+| 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [C++](/algorithms/0515-Find-Largest-Value-in-Each-Tree-Row/515.cpp) |
+| 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [C++](/algorithms/0528-Random-Pick-with-Weight/528.cpp) |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | [C++](/algorithms/0529-Minesweeper/529.cpp) |
+| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](/algorithms/0540-Single-Element-in-a-Sorted-Array/540.cpp) |
+| 559 | [Maximum Depth of N ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [C++](/algorithms/0559-Maximum-Depth-of-N-ary-Tree/559.cpp) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](/algorithms/0567-Permutation-in-String/567.cpp) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [C++](/algorithms/0572-Subtree-of-Another-Tree/572.cpp) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](/algorithms/0617-Merge-Two-Binary-Trees/617.cpp) |
 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [C++](/algorithms/0669-Trim-a-Binary-Search-Tree/669.cpp) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [C++](/algorithms/0678-Valid-Parenthesis-String/678.cpp) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [C++](/algorithms/0692-Top-K-Frequent-Words/692.cpp) |
+| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [C++](/algorithms/0705-Design-HashSet/705.cpp) |
 | 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [C++](/algorithms/0707-Design-Linked-List/707.cpp) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [C++](/algorithms/0725-Split-Linked-List-in-Parts/725.cpp) |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [C++](/algorithms/0733-Flood-Fill/733.cpp) |
+| 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | [C++](/algorithms/0767-Reorganize-String/767.cpp) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) | [C++](/algorithms/0772-Basic-Calculator-III/772.cpp) |
 | 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | [C++](/algorithms/0817-Linked-List-Components/817.cpp) |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | [C++](/algorithms/0819-Most-Common-Word/819.cpp) |
@@ -257,7 +280,9 @@ LeetCode solution
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [C++](/algorithms/0957-Prison-Cells-After-N-Days/957.cpp) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [C++](/algorithms/0973-K-Closest-Points-to-Origin/973.cpp) |
 | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [C++](/algorithms/0992-Subarrays-with-K-Different-Integers/992.cpp) |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [C++](/algorithms/0993-Cousins-in-Binary-Tree/993.cpp) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](/algorithms/0994-Rotting-Oranges/994.cpp) |
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [C++](/algorithms/0997-Find-the-Town-Judge/997.cpp) |
 | 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [C++](/algorithms/1007-Minimum-Domino-Rotations-For-Equal-Row/1007.cpp) |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [C++](/algorithms/1009-Complement-of-Base-10-Integer/1009.cpp) |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [C++](/algorithms/1048-Longest-String-Chain/1048.cpp) |
@@ -266,8 +291,10 @@ LeetCode solution
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [C++](/algorithms/1143-Longest-Common-Subsequence/1143.cpp) |
 | 1167 | [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [C++](/algorithms/1167-Minimum-Cost-to-Connect-Sticks/1167.cpp) |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [C++](/algorithms/1209-Remove-All-Adjacent-Duplicates-in-String-II/1209.cpp) |
+| 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [C++](/algorithms/1232-Check-If-It-Is-a-Straight-Line/1232.cpp) |
 | 1268 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | [C++](/algorithms/1268-Search-Suggestions-System/1268.cpp) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C++](/algorithms/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/1290.cpp) |
+| 1313 | [Decompress Run Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [C++](/algorithms/1313-Decompress-Run-Length-Encoded-List/1313.cpp) |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [C++](/algorithms/1323-Maximum-69-Number/1323.cpp) |
 | 1324 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/) | [C++](/algorithms/1324-Print-Words-Vertically/1324.cpp) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [C++](/algorithms/1325-Delete-Leaves-With-a-Given-Value/1325.cpp) |
@@ -275,6 +302,19 @@ LeetCode solution
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | [C++](/algorithms/1356-Sort-Integers-by-The-Number-of-1-Bits/1356.cpp) |
 | 1357 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | [C++](/algorithms/1357-Apply-Discount-Every-n-Orders/1357.cpp) |
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [C++](/algorithms/1358-Number-of-Substrings-Containing-All-Three-Characters/1358.cpp) |
+| 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | [C++](/algorithms/1408-String-Matching-in-an-Array/1408.cpp) |
+| 1409 | [Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/) | [C++](/algorithms/1409-Queries-on-a-Permutation-With-Key/1409.cpp) |
+| 1410 | [HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/) | [C++](/algorithms/1410-HTML-Entity-Parser/1410.cpp) |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | [C++](/algorithms/1417-Reformat-The-String/1417.cpp) |
 | 1418 | [Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/) | [C++](/algorithms/1418-Display-Table-of-Food-Orders-in-a-Restaurant/1418.cpp) |
+| 1419 | [Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | [C++](/algorithms/1419-Minimum-Number-of-Frogs-Croaking/1419.cpp) |
+| 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [C++](/algorithms/1450-Number-of-Students-Doing-Homework-at-a-Given-Time/1450.cpp) |
+| 1451 | [Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) | [C++](/algorithms/1451-Rearrange-Words-in-a-Sentence/1451.cpp) |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](/algorithms/1455-Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/1455.cpp) |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [C++](/algorithms/1456-Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length/1456.cpp) |
+| 1457 | [Pseudo Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [C++](/algorithms/1457-Pseudo-Palindromic-Paths-in-a-Binary-Tree/1457.cpp) |
+| 1458 | [Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/) | [C++](/algorithms/1458-Max-Dot-Product-of-Two-Subsequences/1458.cpp) |
+| 1460 | [Make Two Arrays Equal by Reversing Sub arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [C++](/algorithms/1460-Make-Two-Arrays-Equal-by-Reversing-Sub-arrays/1460.cpp) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [C++](/algorithms/1461-Check-If-a-String-Contains-All-Binary-Codes-of-Size-K/1461.cpp) |
+| 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | [C++](/algorithms/1462-Course-Schedule-IV/1462.cpp) |
 
