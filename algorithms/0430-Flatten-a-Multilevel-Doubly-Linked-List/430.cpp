@@ -8,6 +8,7 @@ public:
     Node* child;
 };
 
+/*
 class Solution {
 public:
     Node* flatten(Node* head) {
@@ -42,4 +43,40 @@ public:
         node->prev = NULL;
         return cur;
     }
+};*/
+
+class Solution {
+public:
+    Node* flatten(Node* head) {
+        helper(head);
+        return head;
+    }
+    
+    Node* helper(Node* node) {
+        if (!node) {
+            return NULL;
+        }
+        Node* last;
+        while (node) {
+            last = node;
+            if (node->child) {
+                Node* nn = helper(node->child);
+                nn->next = node->next;
+                if (node->next) {
+                    node->next->prev = nn;
+                }
+                node->next = node->child;
+                node->next->prev = node;
+                node->child = NULL;
+                node = nn->next;
+                last = nn;
+            }
+            else {
+                node = node->next;
+            }
+        }
+        last->next = NULL;
+        return last;
+    }
 };
+

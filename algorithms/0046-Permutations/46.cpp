@@ -1,5 +1,5 @@
 #include "../header.h"
-
+/*
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -27,4 +27,29 @@ public:
             }
         }
     }
+};*/
+
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> res;
+        for (int num : nums) {
+            vector<vector<int>> temp;
+            if (res.empty()) {
+                temp.push_back({num});
+            }
+            else {
+                for (int i = 0; i < res.size(); ++i) {
+                    for (int j = 0; j <= res[i].size(); ++j) {
+                        res[i].insert(res[i].begin() + j, num);
+                        temp.push_back(res[i]);
+                        res[i].erase(res[i].begin() + j);
+                    }
+                }
+            }
+            res = temp;
+        }
+        return res;
+    }
 };
+
