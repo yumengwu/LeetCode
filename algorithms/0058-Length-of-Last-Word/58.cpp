@@ -22,3 +22,27 @@ public:
         return res;
     }
 };
+
+/* class Solution { */
+// public:
+//     int lengthOfLastWord(string s) {
+//         if (s.length() == 0) {
+//             return 0;
+//         }
+//         int idx = s.length() - 1;
+//         while (idx >= 0 && s[idx] == ' ') {
+//             --idx;
+//         }
+//         if (idx < 0) {
+//             return 0;
+//         }
+//         int cnt = 1;
+//         --idx;
+//         while (idx >= 0 && s[idx] != ' ') {
+//             --idx;
+//             ++cnt;
+//         }
+//         return cnt;
+//     }
+/* }; */
+

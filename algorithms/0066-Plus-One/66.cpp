@@ -17,3 +17,26 @@ public:
         return res;
     }
 };
+
+/* class Solution { */
+// public:
+//     vector<int> plusOne(vector<int>& digits) {
+//         reverse(digits.begin(), digits.end());
+//         int idx = 0, c = 1;
+//         while (idx < digits.size() || c) {
+//             if (c == 0) {
+//                 break;
+//             }
+//             if (idx == digits.size()) {
+//                 digits.push_back(c);
+//                 break;
+//             }
+//             int t = digits[idx] + c;
+//             digits[idx++] = t % 10;
+//             c = t / 10;
+//         }
+//         reverse(digits.begin(), digits.end());
+//         return digits;
+//     }
+/* }; */
+

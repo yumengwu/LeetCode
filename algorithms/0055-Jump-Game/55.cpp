@@ -1,5 +1,11 @@
 #include "../header.h"
 
+static int _ = [] () {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return 0;
+} ();
+
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -20,3 +26,4 @@ public:
         return false;
     }
 };
+
