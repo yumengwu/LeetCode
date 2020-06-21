@@ -49,6 +49,51 @@ public:
     }
 };
 
+/* class Solution { */
+// public:
+//     bool searchMatrix(vector<vector<int>>& matrix, int target) {
+//         int m = matrix.size();
+//         if (m == 0) {
+//             return false;
+//         }
+//         int n = matrix[0].size();
+//         if (n == 0) {
+//             return false;
+//         }
+//         int l = 0, r = m;
+//         while (l < r) {
+//             int mid = l + (r - l) / 2;
+//             if (matrix[mid][0] == target) {
+//                 return true;
+//             }
+//             if (matrix[mid][0] > target) {
+//                 r = mid;
+//             }
+//             else {
+//                 l = mid + 1;
+//             }
+//         }
+//         if (l == 0) {
+//             return false;
+//         }
+//         int row = l - 1;
+//         l = 0, r = n;
+//         while (l < r) {
+//             int mid = l + (r - l) / 2;
+//             if (matrix[row][mid] == target) {
+//                 return true;
+//             }
+//             if (matrix[row][mid] > target) {
+//                 r = mid;
+//             }
+//             else {
+//                 l = mid + 1;
+//             }
+//         }
+//         return false;
+//     }
+/* }; */
+
 int main()
 {
     Solution s;
